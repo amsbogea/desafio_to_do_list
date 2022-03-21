@@ -3,14 +3,14 @@
 O desafio é criar uma API para o gerenciamento de tarefas utilizando o conceito de RESTFULL e deve conter, cadastro, listagem edição e deleção.
 
 ## Requisitos
-Nossa stack é desenvolvida em Python 3, portanto o projeto deve ser realizado preferêncialmente em Django ou Flask
-API deve seguir os princípios REST 
-Salvar as informações necessárias em um dos bancos de dados relacionais abaixo:
-- Sqlite
-- PostgreSQL
-- MySQL
-Documentar com README como executar o projeto
-Subir a aplicação em alguma plataforma (Exemplo Heroku)
+- Nossa stack é desenvolvida em Python 3, portanto o projeto deve ser realizado preferêncialmente em Django ou Flask
+- A API deve seguir os princípios REST 
+- Salvar as informações necessárias em um dos bancos de dados relacionais abaixo:
+  - Sqlite
+  - PostgreSQL
+  - MySQL
+-Documentar com README como executar o projeto
+-Subir a aplicação em alguma plataforma (Exemplo Heroku)
 
 ## Diferencial
 - Implementar utilizando Clean Architecture
