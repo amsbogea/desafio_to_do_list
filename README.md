@@ -19,7 +19,8 @@ O desafio é criar uma API para o gerenciamento de tarefas utilizando o conceito
 - Ter cobertura de teste no código (TDD - utilizando o pytest)
 
 ## Campos
-```{
+```
+{
   "id": 1,
   "task": "Study", //obrigatório,
   "description": "",
