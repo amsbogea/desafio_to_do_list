@@ -4,7 +4,7 @@ O desafio é criar uma API para o gerenciamento de tarefas utilizando o conceito
 
 ## Requisitos
 Nossa stack é desenvolvida em Python 3, portanto o projeto deve ser realizado preferêncialmente em Django ou Flask
-API deve seguir os princípios REST (Utilizar FLASK é um diferencial)
+API deve seguir os princípios REST 
 Salvar as informações necessárias em um dos bancos de dados relacionais abaixo:
 - Sqlite
 - PostgreSQL
