@@ -22,8 +22,10 @@ O desafio é criar uma API para o gerenciamento de tarefas utilizando o conceito
 ```
 {
   "id": 1,
-  "task": "Study", //obrigatório,
+  "task": "Study", //Obrigatório,
   "description": "",
+  "duration" //Representa estimativa de duração da atividade,
+  "priority" //Representa a prioridade da tarefa, o número deve estar entre 1 e 5,
   "created_at": "2020-10-21T13:45:11-03:00", //preenche com a data atual quando esta criando a atividade
   "updated_at": "2020-10-21T13:45:11-03:00" //preenche com a data atual quando esta modificando a atividade
 } 
