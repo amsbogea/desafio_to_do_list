@@ -8,6 +8,22 @@ from main import insertTask
 
 app = Flask("ItFlex")
 
+
+#inicio da rota "/consulta/task"
+@app.route("/consulta/task", methods=["GET"]) 
+def consulta():
+    return{
+        "id": 1,
+        "task": "estudar",
+        "description": "comer",
+        "duration": 5,
+        "priority": 3,
+        "created_at": "2020-10-21T13:45:11-03:00",
+        "updated_at": "2020-10-21T13:45:11-03:00" 
+} 
+#fim da rota "/consulta/task" 
+
+
 #inicio da rota "/insert/task"
 @app.route("/insert/task", methods=["POST"]) 
 def xxxxxxxx():
