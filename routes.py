@@ -2,9 +2,11 @@ from crypt import methods
 
 from pickle import GET
 
-from flask import Flask,request
+from flask import Flask,request, Response
 
 from main import insertTask
+
+from main import db
 
 app = Flask("ItFlex")
 
@@ -26,7 +28,7 @@ def consulta():
 
 #inicio da rota "/insert/task"
 @app.route("/insert/task", methods=["POST"]) 
-def xxxxxxxx():
+def insert():
 
     body = request.get_json()
 
